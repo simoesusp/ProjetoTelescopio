@@ -1,4 +1,4 @@
-// ***************     Simulador de movimentação do telescópio   ***************
+// ***************     Simulador de movimentaÃ§Ã£o do telescÃ³pio   ***************
 // Auto: Lucas Petto
 
 // A T E N C A O !
@@ -68,7 +68,7 @@ void start_window()  // Liga Tela Grafica
     cleardevice();        // Limpa tela (deixa toda tela preta)
 }
 
-/*Desenhando estrelas aleatoreas no espaço*/
+/*Desenhando estrelas aleatoreas no espaÃ§o*/
 void draw_stars()
 {
   int i,x,y;
@@ -187,7 +187,6 @@ int main()
     int key;
     
     while (key != 'q'){
-        // Inicializa todo o cenário
         scenario_initiation();
         
         // Hour Angle
